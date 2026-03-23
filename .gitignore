@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# ChromaDB
+backend/chroma_store/
+
+# Uploads
+/tmp/uploads/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
