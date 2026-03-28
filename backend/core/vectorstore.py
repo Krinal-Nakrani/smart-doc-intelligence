@@ -1,5 +1,4 @@
 import chromadb
-from chromadb.config import Settings
 from config import CHROMA_PATH
 from core.embedder import get_embedder
 
@@ -28,12 +27,11 @@ def similarity_search(session_id: str, query: str, top_k: int = 4):
         query_embeddings=[q_embedding],
         n_results=top_k
     )
-    # Return list of {text, source, score}
     hits = []
     for i, doc in enumerate(results["documents"][0]):
         hits.append({
             "text": doc,
             "source": results["metadatas"][0][i]["source"],
-            "score": 1 - results["distances"][0][i]   # cosine similarity
+            "score": 1 - results["distances"][0][i]
         })
     return hits

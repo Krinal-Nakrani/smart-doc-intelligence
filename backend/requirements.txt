@@ -6,7 +6,7 @@ python-docx
 langchain
 langchain-community
 langchain-text-splitters
-chromadb-client
+chromadb
 groq
 motor
 python-dotenv
