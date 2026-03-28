@@ -5,10 +5,12 @@ PyPDF2
 python-docx
 langchain
 langchain-community
+langchain-text-splitters
 chromadb-client
 groq
 motor
 python-dotenv
 pdfplumber
-sentence-transformers
-langchain-text-splitters
+huggingface-hub
+numpy
+scikit-learn
