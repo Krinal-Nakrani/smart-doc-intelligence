@@ -7,7 +7,7 @@
 - **Embeddings**: HuggingFace all-MiniLM-L6-v2
 - **Database**: MongoDB Atlas (session storage)
 - **Frontend**: React + Vite → deployed on Vercel
-- **Backend Hosting**: Railway
+- **Backend Hosting**: Render
 
 ## Features
 - Upload PDF, DOCX, or TXT documents
