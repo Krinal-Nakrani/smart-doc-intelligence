@@ -20,9 +20,13 @@
 
 ### Backend
 cd backend
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload --port 8000
 
 ### Frontend
@@ -31,6 +35,8 @@ npm install
 npm run dev
 
 ## Environment Variables
-GROQ_API_KEY=
-HF_TOKEN=
-MONGO_URI=
+GROQ_API_KEY
+
+HF_TOKEN
+
+MONGO_URI
