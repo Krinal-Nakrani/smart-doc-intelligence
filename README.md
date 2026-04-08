@@ -36,9 +36,15 @@ npm run dev
 
 ## Environment Variables
 GROQ_API_KEY
+<<<<<<< HEAD
 
 HF_TOKEN
 
 MONGO_URI
 
 EMBED_MODEL
+=======
+HF_TOKEN
+MONGO_URI
+EMBED_MODEL
+>>>>>>> 8bd4df1 (final touch and deployment)
